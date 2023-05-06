@@ -7,9 +7,14 @@ header{
     background-image: linear-gradient(to bottom, #f33615,#F05033);
     margin: 0px;
     padding: 5px;
+    border: solid 1px #F05033;
+}
+header p{
+    color: white;
 }
 body{
     margin: 0px;
+    background-color: #ffb7ab;
 }
 
 main{
@@ -19,20 +24,20 @@ main{
     border: solid 2px #F05033;
     padding: 5px;
     text-align: justify;
+    background-color: white;
 }
 
 h1,h2{
     text-align: center;
-    background-image: linear-gradient(to right, #f04f33b5, #F05033, #f04f33, #f04f33b5);
+    background-image: linear-gradient(to right, #f04f336a, #F05033, #f04f33, #f04f3357);
     color: white;
 }
-
-img{
-    margin-left: 200px;
+#imgg{
+    margin-left: 300px;
 }
 
 main p{
-    text-indent: 10px;
+    text-indent: 20px;
 }
 
 #imgg{
@@ -42,4 +47,52 @@ main p{
 #commit{
     height: 200px;
     width: 700px;
+}
+#torta{
+    margin-left: 80px;
+}
+#repositorio{
+
+    height: 400px;
+}
+#file{
+    width: 300px;
+    margin-bottom: 200px;
+    margin-left: 80px;
+}
+#vsc{
+    width: 200px;
+    margin-left: 140px;
+}
+#path{
+    margin-left: 130px;
+}
+#push{
+    margin-left: 30px;
+}
+#pull{
+    margin-left: 250px;
+}
+#clone{
+    margin-left: 130px;
+}
+#commit{
+    margin-left: 50px;
+}
+#history{
+    margin-left: 180px;
+}
+h3{
+    color:#f04f33;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.359);
+    text-align: center;
+}
+#branch{
+    margin-left: 240px;
+}
+#merge{
+    margin-left: 240px;
+}
+#issues{
+    margin-left: 130px;
 }
