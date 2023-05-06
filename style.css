@@ -96,3 +96,7 @@ h3{
 #issues{
     margin-left: 130px;
 }
+a{
+    color: #f04f33;
+    background-image: linear-gradient(to right,#f04f335b, #f04f3300);
+}
