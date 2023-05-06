@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Git e GitHub</title>
+    <style>
+        img{
+            height: 200px;
+            width: 200px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -13,32 +19,54 @@
     </header>
     <main>
         <h2>Software de versionamento</h2>
+        
         <p>O software de versionamento, também conhecido como sistema de controle de versão, é um tipo de software que permite o gerenciamento de mudanças em arquivos de código-fonte e outros tipos de arquivos. O software de versionamento permite que os desenvolvedores trabalhem em diferentes versões do mesmo arquivo simultaneamente, sem sobrescrever o trabalho de outras pessoas. Ele também mantém um registro das alterações feitas em cada arquivo ao longo do tempo, permitindo que os desenvolvedores revertam para versões anteriores se necessário.</p>
         <p>Fazendo assim o programador ter total noção do que foi mudado e quando foi mudado, podendo também fazer alterações sem mexer no codigo base do projeto e caso aconteça algum problema no meio do caminho é possivel voltar na versão anterior salva. </p>
+        
         <h2>Git</h2>
+
         <p>Um dos mais populares software de versionamento é o <strong>GIT</strong> e é esse programa que iremos apresentar aqui.</p>
         <img src="git/gitlogo.png" alt="Logo do git">
         <p>Para baixar o Git é recomendado que seja direto do site oficial</p>
         <a href="https://git-scm.com" target="_blank">Site do Git</a>
+        <p>não esqueça de trocar essa opção abaixo, pois ela é muito importante, ela não estará com o visual code como padrão, é importante coloca-lo e <strong>cuidado</strong>, há dois vscode como opções, o da foto é o correto e não a versão insiders</p>
+        <img src="prints/gitconfig.png" alt="git config">
         <p>Após a instalação é recomendado que reinicie o computador(não é obrigatorio)</p>
+        
         <h2>GitHub</h2>
+
         <p>Se você pensou que é a mesma coisa está errado, GitHub é como se fosse uma rede sociais dos desenvolvedores aonde você deixa seus projetos na nuvem, tornando-os assim intocaveis.</p>
         <img src="git/githublogo.png" alt="Logo do GitHub">
         <p>Você irá precisar criar uma conta no site para conseguir ultiliza-lo de maneira correta</p>
         <p><a href="https://github.com" target="_blank">Site do GitHub</a></p>
+        
         <h2>GitHub Desktop</h2>
+
         <p>Para ultilizar o Git normalmente é usado o terminal para digitar os comandos, mas inicialmente o GitHub Desktop é uma otima opção porque tem as mesmas funcionalidades e é muito intuitivo.</p>
         <p>Sua instalação é muito simples.</p>
         <a href="https://desktop.github.com" target="_blank">Site do GitHub Desktop</a>
         <p>Após baixar é só logar com sua conta do GitHub</p>
+        
+        <h2>Visual Studio code</h2>
+
+        <p>A ultima coisa que iremos baixar é o VS Code(Visual Studio Code), que é um otimo programa para criar seus codigos e altamente compativel com o Git(Recomendo a versão padrão, não a insiders)</p>
+        <a href="https://code.visualstudio.com/download">Site do VS code</a>
+        <img src="git/vscodelogo.webp" alt="logo VsCode">
+        <p>Não esqueça de habilitar os 'PATH' do VSCode pois facilita no dia-a-dia</p>
+        <img src="prints/pathvsc.png" alt="path vsc">
+        <p>Essas opções deixam você apertar com botão direito em algum arquivo e abrir com VSCode</p>
+
         <h2>Funcionalidades do GitHub Desktop</h2>
-        <h3>Criando um novo repositorio local</h3>
+        
+        <h3>Criando um novo repositorio</h3>
+
         <p>Para criar um repositorio pelo desktop,é apenas ir em 'File' e depois 'New Repository'</p>
-        <img src="prints/file.png" alt="file">
         <img src="prints/newfile.png" alt="New repository">
         <p><img src="prints/newrepository.png" alt="Novo repositorio"></p>
         <p>Na tela posterior, você preencherá o nome do projeto, a descrisão, o local que o arquivo irá ser salvo, se ele irá ser iniciado por um 'README'(Essa opção é recomendada ser marcado, pois no GitHub ela será a descrisão do projeto), o git ignore é para especificar algum arquivo para o git ignorar e a license é a licensa de uso(Recomendavel ultilizar a MIT license, mas você pode ler os termo para decidir qual você irá ultilizar)</p>
-        <p>Confirmando o processo o repositorio foi criado</p>
+        <p>Confirmando o processo o repositorio foi criado, depois é só apertar em 'push origin' para mandar ao GitHub</p>
+        <img src="prints/push.png" alt="push">
+        <p>Entrando no seu perfil no GitHub e indo no meus repositorios você poderá ve-los.</p>
         
     </main>
     
