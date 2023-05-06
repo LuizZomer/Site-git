@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(to bottom, #f33615,#F05033);
+    margin: 0px;
+    padding: 5px;
+}
+body{
+    margin: 0px;
+}
+
+main{
+    margin: auto;
+    max-width: 800px;
+    min-width: 300px;
+    border: solid 2px #F05033;
+    padding: 5px;
+    text-align: justify;
+}
+
+h1,h2{
+    text-align: center;
+    background-image: linear-gradient(to right, #f04f33b5, #F05033, #f04f33, #f04f33b5);
+    color: white;
+}
+
+img{
+    margin-left: 200px;
+}
+
+main p{
+    text-indent: 10px;
+}
+
+#imgg{
+    height: 200px;
+    width: 200px;
+}
+#commit{
+    height: 200px;
+    width: 700px;
+}

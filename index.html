@@ -4,18 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Git e GitHub</title>
-    <style>
-        img{
-            height: 200px;
-            width: 200px;
-        }
-    </style>
+
 </head>
 <body>
     <header>
         <h1>Git e GitHub</h1>
-        <p>Um guiar simples, feito para testes</p>
+        <p>Um guia simples, feito para testes</p>
     </header>
     <main>
         <h2>Software de versionamento</h2>
@@ -26,7 +22,7 @@
         <h2>Git</h2>
 
         <p>Um dos mais populares software de versionamento é o <strong>GIT</strong> e é esse programa que iremos apresentar aqui.</p>
-        <img src="git/gitlogo.png" alt="Logo do git">
+        <img id="imgg" src="git/gitlogo.png" alt="Logo do git">
         <p>Para baixar o Git é recomendado que seja direto do site oficial</p>
         <a href="https://git-scm.com" target="_blank">Site do Git</a>
         <p>não esqueça de trocar essa opção abaixo, pois ela é muito importante, ela não estará com o visual code como padrão, é importante coloca-lo e <strong>cuidado</strong>, há dois vscode como opções, o da foto é o correto e não a versão insiders</p>
@@ -36,7 +32,7 @@
         <h2>GitHub</h2>
 
         <p>Se você pensou que é a mesma coisa está errado, GitHub é como se fosse uma rede sociais dos desenvolvedores aonde você deixa seus projetos na nuvem, tornando-os assim intocaveis.</p>
-        <img src="git/githublogo.png" alt="Logo do GitHub">
+        <img id="imgg" src="git/githublogo.png" alt="Logo do GitHub">
         <p>Você irá precisar criar uma conta no site para conseguir ultiliza-lo de maneira correta</p>
         <p><a href="https://github.com" target="_blank">Site do GitHub</a></p>
         
@@ -51,7 +47,7 @@
 
         <p>A ultima coisa que iremos baixar é o VS Code(Visual Studio Code), que é um otimo programa para criar seus codigos e altamente compativel com o Git(Recomendo a versão padrão, não a insiders)</p>
         <a href="https://code.visualstudio.com/download">Site do VS code</a>
-        <img src="git/vscodelogo.webp" alt="logo VsCode">
+        <img id="imgg" src="git/vscodelogo.webp" alt="logo VsCode">
         <p>Não esqueça de habilitar os 'PATH' do VSCode pois facilita no dia-a-dia</p>
         <img src="prints/pathvsc.png" alt="path vsc">
         <p>Essas opções deixam você apertar com botão direito em algum arquivo e abrir com VSCode</p>
@@ -67,6 +63,45 @@
         <p>Confirmando o processo o repositorio foi criado, depois é só apertar em 'push origin' para mandar ao GitHub</p>
         <img src="prints/push.png" alt="push">
         <p>Entrando no seu perfil no GitHub e indo no meus repositorios você poderá ve-los.</p>
+
+        <h3>pull e clonagem</h3>
+
+        <p>O pull é quando você quer puxar um arquivo(do seu repositorio) da nuvem(GitHub) para seu computador</p>
+        <img src="prints/pull.png" alt="pull">
+        <p>Apertando esse botão com o seu repositorio já selecionado ele puxa as atualizações feita no GitHub(Otimo para trabalho com mais pessoas)</p>
+        <p>A clonagem de repositorios você copia os arquivos tanto seus quanto de outras pessoas para um repositório local.</p>
+        <p>É apenas ir no repositório selecionado e apertar no botão verde 'Code' e Depois 'Open with GitHub Desktop'</p>
+        <img src="prints/clone.png" alt="Clonagem">
+        <p>Depois apenas confirmar o local do arquivo e pronto,apenas ir aonde você o salvou.</p>
+
+        <h3>Olhando versões antigas do seu projeto</h3>
+
+        <p>No Desktop é apenas ir em 'History' com o seu repositorio selecionado e no GitHub é apenas ir em 'Commits'</p>
+        <img id="commit" src="prints/commit.png" alt="Versão github"> <br>
+        <img src="prints/history.png" alt="versao Desktop">
+
+        <h3>Branch e Merge</h3>
+
+        <p>Quando você cria uma nova branch(Ramificação), você pode fazer alterações nessa branch sem afetar o código em outras branches. Isso permite que você experimente novas ideias sem se preocupar em quebrar o código existente. Quando você está pronto para integrar suas alterações à branch principal, você pode fazer um merge(Mesclagem), que combina as alterações de sua branch na branch principal.</p>
+        <p>Para fazer uma branch é simples, apenas aperte 'Current branch' no desktop e crie um nome para ela.</p>
+        <img src="prints/branch.png" alt="branch">
+        <p>Mas para fazer o merge você terá que ir em branch na parte superior da janela e apertar em 'Merge into curent branch' com a main selecionada</p>
+        <img src="prints/merge.png" alt="merge">
+
+        <h3>Issues</h3>
+
+        <p>As issues são algum aviso de problema que você pode fazer ou receber no GitHub</p>
+        <img src="prints/issues.png" alt="issues">
+
+        <h2>Markdown</h2>
+
+        <p>A linguagem ultilizada para comentarios e edições no proprio GitHub é o Markdown, uma linguagem simples e de facil leitura</p>
+
+        <a href="https://www.markdownguide.org/basic-syntax/">Uma lista de comandos em markdown</a>
+
+        
+
+
         
     </main>
     
